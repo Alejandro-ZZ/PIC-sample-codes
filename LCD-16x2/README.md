@@ -14,3 +14,5 @@ Connections
 |           RD5          |            28            | Data 5 (D5)          |
 |           RD6          |            29            | Data 6 (D6)          |
 |           RD7          |            30            | Data 7 (D7)          |
+
+**NOTE:** Remember conect a pull-up resistor to MCLR/Vpp (pin 1) of the PIC16F877A to avoid it resets.
