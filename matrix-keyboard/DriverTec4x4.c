@@ -1,16 +1,16 @@
 /////////////////////////////////////////////////////////////////////////////
 ////                                                                     ////
-////            LIBRERÍA DE ATENCIÓN A TECLADO MATRICIAL                 ////
+////            ATTENTION LIBRARY WITH MATRIX KEYBOARD                   ////
 ////                                                                     ////
-////  Tecla= LeerTeclado()   retorna el código del pulsador oprimido	 ////
-////                         (entre 0 y 15), o retorna 16 si ninguno     ////
-////                         se oprimió.                                 ////
+////  LeerTeclado()  -> returns the code of the pressed button	         ////
+////                    (between 0 and 15), or returns 16 if none        ////
+////                    were pressed.                                    ////
 ////                                                                     ////
-////                         Esta función debe llamarse con frecuencia   ////
-////                         para no desatender el Teclado.              ////
+////                    This function should be called frequently        ////
+////                    so as not to neglect the keyboard.               ////
 ////                                                                     ////
 ////*********************************************************************//// 
-////  Rutina desarrollada por Miguel Angel Montilla                      ////
+////  Routine developed by Miguel Angel Montilla                         ////
 ////                                                                     ////
 /////////////////////////////////////////////////////////////////////////////
 
@@ -32,7 +32,7 @@ int8 LeerTeclado() {
 		for(Col=4;Col!=0;Col--){
 			if (Aux==RotaCol){
 				TecladoPulsado= true;
-				break;					// Salir del ciclo 'for'
+				break;				
 			}
 			NTecla++;
 			Shift_Right(&RotaCol,1,1);
