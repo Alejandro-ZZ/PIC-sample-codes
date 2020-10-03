@@ -19,4 +19,4 @@ Conections
 
 **2. Potentiometer**:To probe the code, conect a 50k ohms potentiometer as shown in pot_conections.jpg image.
 
-**NOTE:*** Remember conect a pull-up resistor to MCLR/Vpp (pin 1) of the PIC16F877A to avoid it resets.
+**NOTE:** Remember conect a pull-up resistor to MCLR/Vpp (pin 1) of the PIC16F877A to avoid it resets.
