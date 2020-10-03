@@ -1,3 +1,16 @@
+//  lcd_init()   Must be called before any other function.
+
+//  lcd_putc(c)  Will display c on the next position of the LCD. 
+//               The following have special meaning: 
+//                   \f  Clear display            
+//                   \n  Go to start of second line       
+//                   \b  Move back one position        
+                                                              
+//  lcd_gotoxy(x,y) Set write position on LCD (upper left is 1,1)   
+                                                                
+//  lcd_getc(x,y)   Returns character at position x,y on LCD   
+
+
 // Default connections
 //     D0  enable
 //     D1  rs
