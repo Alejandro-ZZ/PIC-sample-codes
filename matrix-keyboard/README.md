@@ -2,7 +2,8 @@ Keyboar sample
 ================
 
 This project shows how to implements an application with a matrix keyboard 
-(using DriverTec4x4 library), LCD 16x2 display and PIC16F877A.
+(using DriverTec4x4 library), LCD 16x2 display and PIC16F877A.Each keyboard 
+key pressed is shown in the LCD display as a character.
 
 Conections
 -----------------
