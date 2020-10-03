@@ -5,7 +5,7 @@ This project shows how to read analog values using internal ADC (chanel AN0) of 
 Conections
 -----------------
 
-1. LCD 16x2 display
+**1. LCD 16x2 display**
 
 | PIC16F877A<br>Pin name | PIC16F877A<br>Pin number | LCD-16x2<br>Pin name |
 |:----------------------:|:------------------------:|----------------------|
@@ -17,6 +17,6 @@ Conections
 |           RD6          |            29            | Data 6 (D6)          |
 |           RD7          |            30            | Data 7 (D7)          |
 
-2. Potentiometer
+**2. Potentiometer**:To probe the code, conect a 50k ohms potentiometer as shown in pot_conections.jpg image.
 
-To probe the code, conect a 50k ohms potentiometer as shown in pot_conections.jpg image.
+**NOTE:*** Remember conect a pull-up resistor to MCLR/Vpp (pin 1) of the PIC16F877A to avoid it resets.
