@@ -24,8 +24,8 @@
 
 //======================== Variable declarations ========================
 
-	int16 x=0;
-	int clock=0;
+int16 x=0;
+int clock=0;
   
   
 //======================== Funtions ========================
@@ -53,16 +53,16 @@ void main() {
 	//Setup code
 	IniPuertos();
 
-  // Set working mode on RTCC_INTERNAL and pre-scaler of 4
+  	// Set working mode on RTCC_INTERNAL and pre-scaler of 4
 	setup_timer_0(RTCC_INTERNAL | RTCC_DIV_4);
   
-  //Start conunting from 6 to 255
+  	//Start conunting from 6 to 255
 	SET_TIMER0(6);	
   
-  // Clear interruption flag of TIMER0
+	// Clear interruption flag of TIMER0
 	clear_interrupt(INT_TIMER0);
   
-  // Enable interruption
+  	// Enable interruption
 	enable_interrupts(INT_TIMER0);
 	enable_interrupts(GLOBAL);	
 	
