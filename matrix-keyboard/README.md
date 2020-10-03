@@ -35,3 +35,5 @@ Conections
 |           RB5          |            38            |        L2        |
 |           RB6          |            39            |        L3        |
 |           RB7          |            40            |        L4        |
+
+**NOTE:** Remember conect a pull-up resistor to MCLR/Vpp (pin 1) of the PIC16F877A to avoid it resets.
