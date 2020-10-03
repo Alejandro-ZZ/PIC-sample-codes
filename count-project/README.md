@@ -9,7 +9,7 @@ full or available within its capacity.
 Components description
 ---------------
 
-IMPUTS
+INPUTS
 * Cargar, button used to set a default value when needed.
 * Salio, sensor whose output is 0V when a person cross the place's output. Otherwise it's output is 5V.
 * Entro, sensor whose output is 0V when a person cross the place's input. Otherwise it's output is 5V.
