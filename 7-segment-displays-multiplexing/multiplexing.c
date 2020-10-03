@@ -24,20 +24,20 @@ void IniPuertos(){
 
 void main(){
 	
-  //Setup code
+	//Setup code
 	Inipuertos();
   
-  //Main code that runs repeatedly
+  	//Main code that runs repeatedly
 	while(true){		
     
-    //Display unit
+   		//Display unit
 		output_bit(pin_B1,1);
 		output_D(Deco[num%10]);
     
 		delay_ms(50);
 		output_bit(pin_B1,0);
     
-    //Display ten
+    		//Display ten
 		output_bit(pin_B0,1);
 		output_D(Deco[int(num/10)]);
     
