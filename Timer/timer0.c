@@ -31,7 +31,7 @@ int clock=0;
 //======================== Funtions ========================
 void IniPuertos(){	
 
-	set_tris_D(0);			// Puerto D como salida.
+	set_tris_D(0);			// Port D as output
 	lcd_init();
 }
 
