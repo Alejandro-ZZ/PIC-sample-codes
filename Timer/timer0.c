@@ -13,7 +13,7 @@
 
 #define		lcd_rs_pin		pin_D0
 #define		lcd_rw_pin		pin_D1
-#define		lcd_enable_pin	pin_D2
+#define		lcd_enable_pin	        pin_D2
 #define		lcd_data4		pin_D4
 #define		lcd_data5		pin_D5
 #define		lcd_data6		pin_D6
